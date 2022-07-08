@@ -1,0 +1,239 @@
+/*html, body{
+    margin: : 0;
+    min-height: 100%;
+}*/
+.logocolegaonlineav {
+    width: 100%;
+}
+
+.borde {
+    background-color: #363D46;
+    border: solid 1px #363D46;
+}
+
+body {
+    background-color: #FFE1D0;
+}
+
+/*header{
+    display: flex;
+    height: 70px;
+    background-color: pink;
+    justify-content: space-between
+}*/
+.logocolega {
+    width: 20%;
+    border: solid #363D46;
+    transition: all 2s;
+}
+
+.logocolega:hover {
+    transform: scale(1.2);
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    color: #363D46;
+}
+
+.primerParrafo {
+    color: black
+}
+
+#segundo {
+    color: purple
+}
+
+/*body{
+    min-height: 100vh;
+    background-color: pink;
+}*/
+.boton a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.border a {
+    border: solid 3px;
+}
+
+/*.section1{
+    width: 400px;
+}*/
+.Boton {
+    background-color: cornflowerblue;
+    /*width: 200px;*/
+    width: fit-content;
+    /* width: 10 rem; */
+    /* width: 50vw;*/
+    /*height: 50px;*/
+    border: solid 8px white;
+    border-radius: 6px;
+    /* border-bottom: solid 2px red;
+    border-top: dashed 2px green;
+    border-left: dotted 3px yellow;*/
+    /*padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 10%; */
+    /* 4 valores; 2 valores; 1 valor */
+    padding: 0 20px;
+    /* 4 valores; 2 valores; 1 valor */
+    margin: 30px auto;
+}
+
+.encabezado__lista__item {
+    display: inline-block;
+    margin: 18px;
+}
+
+.encabezado__lista {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.encabezado__lista__link {
+    text-decoration: none;
+    color: pink;
+}
+
+/* .itemSubmenu{
+    position: relative;
+} */
+
+/* .encabezado__lista__submenu{
+    /*clase del submenu
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    display: none;
+} */
+/* .itemSubmenu:hover .encabezado__lista__submenu{
+    display: block;
+    background-color: white;
+} */
+.textoIndex {
+    width: 50%;
+    border: solid 1px black;
+    /* height: 150px; */
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    /* overflow: visible; */
+    /* overflow: auto; */
+}
+
+.linkedin {
+    width: 50px;
+    /*margin-left: 50%;*/
+}
+
+.logo__redes {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram {
+    width: 50px;
+    /* margin-left: 50%; */
+}
+
+.imagen_de_nuestro_servicio {
+    width: 20%;
+    border: solid 3px #a1a19e;
+    transition: all 2s;
+}
+
+@media screen and(max-width: 320px) {
+    .imagen_de_nuestro_servicio
+    .grilla
+    .textoGaleria
+}
+
+/*.imagen_de_nuestro_servicio:hover{
+    transform: scale(1.2);
+}
+@media screen and(max-width: 320px){
+    .imagen_de_nuestro_servicio:hover
+}*/
+.equipo_de_trabajo {
+    width: 18%;
+    border: solid 2px white;
+}
+
+/*.bodyHome{
+    background-color: FFE1D0;
+}
+@media screen and ( max-width:768px){
+    .bodyHome{
+        background-color: aqua;
+    }
+}
+@media screen and ( max-width 320px){
+    .bodyHome{
+        background-color: red;
+    }
+}*/
+.grilla {
+    display: grid;
+    background-position: top;
+    justify-content: left;
+    grid-template-columns: repeat(2, 1fr) grid-template-rows: repeat(3, 100px)
+        /*  margin: 0 auto;
+    border: 1px red;
+    justify-content: space-evenly;*/
+}
+
+/*@media screen and(max-width 320px) {
+    .grilla
+}*/
+
+.textoGaleria {
+    display: grid;
+    background-color: gray;
+    text-align: left;
+    justify-content: space-between 
+    background-position: space-between;
+}
+
+/*@media screen and (max-width 320px) {
+    .textoGaleria
+}*/
+
+/*.flex-container {
+    flex-direction: column;
+    text-align: center;
+    border: 1px #FDFF8D;
+    background: #FFE1D0;
+    padding: 2px;
+    justify-content: stretch;
+    align-content: space-between;
+}*/
+.gridDos {
+    display: grid;
+    flex-direction: column
+}
+
+.gridDos {
+    text-align: center;
+    background-position: row;
+}
+
+.gridUno{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    width: 220px;
+    padding: 2px;
+    text-align: justify;
+    background-color: aquamarine;
+    background-position: center;
+    align-content:center;
+    gap: 10px;
+}
