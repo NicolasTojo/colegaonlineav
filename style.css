@@ -151,11 +151,11 @@ h1 {
     transition: all 2s;
 }
 
-@media screen and(max-width: 320px) {
+/*@media screen and(max-width: 320px) {
     .imagen_de_nuestro_servicio
     .grilla
     .textoGaleria
-}
+}*/
 
 /*.imagen_de_nuestro_servicio:hover{
     transform: scale(1.2);
@@ -185,21 +185,18 @@ h1 {
     display: grid;
     background-position: top;
     justify-content: left;
-    grid-template-columns: repeat(2, 1fr) grid-template-rows: repeat(3, 100px)
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, 100px)
         /*  margin: 0 auto;
     border: 1px red;
     justify-content: space-evenly;*/
 }
 
-/*@media screen and(max-width 320px) {
-    .grilla
-}*/
-
 .textoGaleria {
-    display: grid;
+    display: flex;
     background-color: gray;
     text-align: left;
-    justify-content: space-between 
+    justify-content: space-between;
     background-position: space-between;
 }
 
