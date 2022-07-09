@@ -15,12 +15,6 @@ body {
     background-color: #FFE1D0;
 }
 
-/*header{
-    display: flex;
-    height: 70px;
-    background-color: pink;
-    justify-content: space-between
-}*/
 .logocolega {
     width: 20%;
     border: solid #363D46;
@@ -48,10 +42,6 @@ h1 {
     color: purple
 }
 
-/*body{
-    min-height: 100vh;
-    background-color: pink;
-}*/
 .boton a {
     text-decoration: none;
     color: white;
@@ -63,9 +53,6 @@ h1 {
     border: solid 3px;
 }
 
-/*.section1{
-    width: 400px;
-}*/
 .Boton {
     background-color: cornflowerblue;
     /*width: 200px;*/
@@ -103,29 +90,10 @@ h1 {
     color: pink;
 }
 
-/* .itemSubmenu{
-    position: relative;
-} */
-
-/* .encabezado__lista__submenu{
-    /*clase del submenu
-    list-style: none;
-    position: absolute;
-    top: 100%;
-    display: none;
-} */
-/* .itemSubmenu:hover .encabezado__lista__submenu{
-    display: block;
-    background-color: white;
-} */
 .textoIndex {
     width: 50%;
     border: solid 1px black;
-    /* height: 150px; */
-    /* overflow: scroll; */
-    /* overflow: hidden; */
-    /* overflow: visible; */
-    /* overflow: auto; */
+
 }
 
 .linkedin {
@@ -146,76 +114,34 @@ h1 {
 }
 
 .imagen_de_nuestro_servicio {
-    width: 20%;
+    width: 220px;
     border: solid 3px #a1a19e;
-    transition: all 2s;
 }
 
-/*@media screen and(max-width: 320px) {
-    .imagen_de_nuestro_servicio
-    .grilla
-    .textoGaleria
-}*/
-
-/*.imagen_de_nuestro_servicio:hover{
-    transform: scale(1.2);
-}
-@media screen and(max-width: 320px){
-    .imagen_de_nuestro_servicio:hover
-}*/
 .equipo_de_trabajo {
     width: 18%;
     border: solid 2px white;
 }
 
-/*.bodyHome{
-    background-color: FFE1D0;
-}
-@media screen and ( max-width:768px){
-    .bodyHome{
-        background-color: aqua;
-    }
-}
-@media screen and ( max-width 320px){
-    .bodyHome{
-        background-color: red;
-    }
-}*/
 .grilla {
     display: grid;
     background-position: top;
     justify-content: left;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(3, 100px)
-        /*  margin: 0 auto;
-    border: 1px red;
-    justify-content: space-evenly;*/
+    grid-template-columns: repeat(2, 1fr);
+    /*grid-template-rows: repeat(3, 100px)*/
 }
 
 .textoGaleria {
-    display: flex;
+    display: grid;
     background-color: gray;
     text-align: left;
     justify-content: space-between;
     background-position: space-between;
 }
 
-/*@media screen and (max-width 320px) {
-    .textoGaleria
-}*/
-
-/*.flex-container {
-    flex-direction: column;
-    text-align: center;
-    border: 1px #FDFF8D;
-    background: #FFE1D0;
-    padding: 2px;
-    justify-content: stretch;
-    align-content: space-between;
-}*/
 .gridDos {
     display: grid;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .gridDos {
@@ -223,7 +149,7 @@ h1 {
     background-position: row;
 }
 
-.gridUno{
+.gridUno {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     width: 220px;
@@ -231,6 +157,6 @@ h1 {
     text-align: justify;
     background-color: aquamarine;
     background-position: center;
-    align-content:center;
+    align-content: center;
     gap: 10px;
 }
