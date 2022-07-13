@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<link rel="stylesheet" href="../style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,29 +16,37 @@
 
 <body>
 	<header>
-		<!-- logo y el nav -->
 		<a href="../index.html">
 			<img class="logocolegaonlineav" src="../imagenes/BannerColegaOnlineAV.png" alt="Logo-Colega-Online-AV">
 		</a>
 		<!--<h1> Colega Online AV </h1>-->
-		<nav class="borde">
-			<ul class="encabezado__lista">
-				<li class="encabezado__lista__item"><a href="../index.html" class="encabezado__lista__link">Home</a>
-				</li>
-				<li class="encabezado__lista__item"><a href="./contacto.html"
-						class="encabezado__lista__link">Contacto</a></li>
-				<li class="encabezado__lista__item"><a href="./galeria.html" class="encabezado__lista__link">Galeria</a>
-				</li>
-				<li class="encabezado__lista__item"><a href="#" class="encabezado__lista__link">Quienes somos</a></li>
-				<li class="encabezado__lista__item"><a href="./ubicacion.html"
-						class="encabezado__lista__link">Ubicacion</a></li>
-			</ul>
+		<nav class="navbar navbar-expand-lg barraNavegador">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link" href="../index.html">Inicio</a>
+						<a class="nav-link" href="./contacto.html">Contacto</a>
+						<a class="nav-link" href="./galeria.html">Galeria</a>
+						<a class="nav-link active" aria-current="page" href="#">Quienes Somos</a>
+						<a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+					</div>
+				</div>
+			</div>
 		</nav>
+
 	</header>
 	<h1> Equipo De Trabajo </h1>
 	<main>
 		<section>
-			<!-- Imagen -->
+			<div class="text-center">
+				<!--<img src="../imagenes/57.jpg" class="rounded" alt="Foto-del-equipo-de-trabajo">-->
+			  </div>
 			<img class="equipo_de_trabajo" src="../imagenes/57.jpg" alt="Foto-del-equipo-de-trabajo">
 			<div>
 				<p>Colega Online AV ofrece servicios de asistencia online remota a emprendedores, pymes, organizaciones
@@ -60,6 +70,9 @@
 			</li>
 		</ul>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>

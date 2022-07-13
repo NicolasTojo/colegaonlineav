@@ -5,13 +5,13 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
-	<title>Colega Online AV</title>
-	<!-- CSS -->
 	<link rel="stylesheet" href="../style.css">
-
+	<title> Colega Online AV</title>
 
 </head>
 
@@ -20,29 +20,60 @@
 		<!-- Cabecera de nuestro sitio -->
 		<a href="../index.html">
 			<img class="logocolegaonlineav" src="../imagenes/BannerColegaOnlineAV.png" alt="Logo-Colega-Online-AV">
-			<!--<img class="logocolegaonlineav" src="../imagenes/BannerColegaOnlineAV.png" alt="Logo-Colega-Online-AV">-->
-			<nav class="borde">
-				<ul class="encabezado__lista">
-					<li class="encabezado__lista__item"><a href="../index.html" class="encabezado__lista__link">Home</a>
-					</li>
-					<li class="encabezado__lista__item"><a href="#" class="encabezado__lista__link">Contacto</a></li>
-					<li class="encabezado__lista__item"><a href="./galeria.html"
-							class="encabezado__lista__link">Galeria</a></li>
-					<li class="encabezado__lista__item"><a href="./quienes-somos.html"
-							class="encabezado__lista__link">Quienes somos</a></li>
-					<li class="encabezado__lista__item"><a href="./ubicacion.html"
-							class="encabezado__lista__link">Ubicacion</a></li>
-				</ul>
-				<!-- <ol>
+			<nav class="navbar navbar-expand-lg barraNavegador">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#"></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link" href="../index.html">Inicio</a>
+							<a class="nav-link active" aria-current="page" href="#">Contacto</a>
+							<a class="nav-link" href="./galeria.html">Galeria</a>
+							<a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+							<a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<!-- <ol>
 				<li>Ordenada 1</li>
 				<li>Ordenada 2</li>
-			</</ol> -->
-			</nav>
+			</</ol>-->
 	</header>
 	<h1>Contacto</h1>
 	<main>
 		<form>
-			<div>
+			<div class="row">
+				<div class="col">
+					<input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+				</div>
+				<div class="col">
+					<input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+				</div>
+				<div class="form-floating mb-3">
+					<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+					<label for="floatingInput">Email</label>
+				</div>
+				<div class="form-floating">
+					<input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+					<label for="floatingPassword">Contraseña</label>
+				</div>
+				<div class="form-floating">
+					<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+					<label for="floatingTextarea">Comentarios</label>
+				</div>
+
+
+
+
+
+
+
+				<!--<div>
 				<input type="text" placeholder="Nombre completo">
 			</div>
 			<div>
@@ -54,10 +85,9 @@
 			<div>
 				<input type="submit">
 				<input type="reset">
-			</div>
+			</div>-->
 
 		</form>
-
 
 	</main>
 
@@ -76,6 +106,9 @@
 				</li>
 			</ul>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"></script>
 </body>
 
 </html>
