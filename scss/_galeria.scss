@@ -1,0 +1,14 @@
+.imagen_de_nuestro_servicio {
+    width: 220px;
+    border: solid 3px #a1a19e;
+    transition: all 2s;
+}
+.imagen_de_nuestro_servicio:hover{
+    transform: scale(1.1);
+}
+.grilla {
+    display: grid;
+    background-position: top;
+    justify-content: center;
+    flex-direction: column;
+}

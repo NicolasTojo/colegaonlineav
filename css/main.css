@@ -2,8 +2,83 @@
   margin: 0;
   padding: 0; }
 
-.bodyHome {
-  background-color: #ad1414; }
+.body {
+  background-color: #FFE1D0; }
+
+.gridDos {
+  display: grid;
+  flex-direction: column; }
+
+.gridDos {
+  text-align: center;
+  background-position: row; }
+
+.carousel-item {
+  height: 350px;
+  width: 100%; }
+
+.carousel-item img {
+  height: 350px;
+  width: 100%;
+  object-fit: contain; }
+
+.logocolega {
+  width: 260px;
+  border: solid #363D46;
+  transition: all 2s; }
+
+.logocolega:hover {
+  transform: scale(1.1); }
+
+.Boton {
+  background-color: aquamarine;
+  /*width: 200px;*/
+  width: fit-content;
+  /* width: 10 rem; */
+  /* width: 50vw;*/
+  /*height: 50px;*/
+  border: solid 8px  gray;
+  border-radius: 6px;
+  /* border-bottom: solid 2px red;
+    border-top: dashed 2px green;
+    border-left: dotted 3px yellow;*/
+  /*padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 10%; */
+  /* 4 valores; 2 valores; 1 valor */
+  padding: 0 20px;
+  /* 4 valores; 2 valores; 1 valor */
+  margin: 30px auto; }
+
+.logocolegaonlineav {
+  width: 100%; }
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; }
+
+h1 {
+  color: #363D46; }
+
+.primerParrafo {
+  color: black; }
+
+#segundo {
+  color: purple; }
+
+.boton a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 20px; }
+
+.border a {
+  border: solid 3px; }
+
+.textoIndex {
+  width: 50%;
+  border: solid 1px black; }
 
 .logo__redes {
   list-style: none;
@@ -25,3 +100,35 @@
 
 body {
   background-color: #FFE1D0; }
+
+.logo__redes {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.instagram {
+  width: 50px;
+  /* margin-left: 50%; */ }
+
+.linkedin {
+  width: 50px;
+  /*margin-left: 50%;*/ }
+
+.equipo_de_trabajo {
+  width: 20%;
+  border: solid 3px white; }
+
+.imagen_de_nuestro_servicio {
+  width: 220px;
+  border: solid 3px #a1a19e;
+  transition: all 2s; }
+
+.imagen_de_nuestro_servicio:hover {
+  transform: scale(1.1); }
+
+.grilla {
+  display: grid;
+  background-position: top;
+  justify-content: center;
+  flex-direction: column; }
